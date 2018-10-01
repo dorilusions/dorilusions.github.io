@@ -1,0 +1,25 @@
+body {
+  font-size: 133%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 2;
+  color: #666;
+  background: #f9f9f9;
+  text-shadow: 1px 1px 0px white;
+}
+.header {
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 1.8em;
+}
+p small {
+    color: #c9c9c9;
+    font-size: 0.75em;
+}
+.style1 {
+	border-top: 3px double #8c8b8b;
+}
+.style2 {
+	
+}

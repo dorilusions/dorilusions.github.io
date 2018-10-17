@@ -1,11 +1,30 @@
 button {
     background-color: darkslategrey;
-    border: 2px black thick;
+    border: 6px lightpink groove; 
     color: lightpink;
     text-align: center;    
     font-size: 16px;
 }
 
+header {
+    background-color: beige;
+    text-align: center;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 110%;
+}
+
 h1.foo {
     text-align: center;
+}
+
+h1#new-point {
+    text-align: center;
+}
+
+.byline {
+    font-style: italic;
+    font-size: 90%;
 }

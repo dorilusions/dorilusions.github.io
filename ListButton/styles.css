@@ -6,6 +6,11 @@ button {
     font-size: 16px;
 }
 
+footer{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
 header {
     background-color: beige;
     text-align: center;
@@ -24,7 +29,17 @@ h1#new-point {
     text-align: center;
 }
 
+main {
+    background-color: ivory;
+}
+
 .byline {
     font-style: italic;
     font-size: 90%;
+}
+
+img#listbuttonutah {
+    width: 100px;
+    height: 100px;
+    float: left;
 }

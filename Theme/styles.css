@@ -1,0 +1,25 @@
+.byline {
+    font-style: italic;
+    font-size: 90%;
+}
+
+footer {
+    background-color: beige;
+    text-align: center;
+}
+
+header {
+    background-color: beige;
+    text-align: center;
+}
+
+#bobahome {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+main {
+    background-color: ivory;
+}
+

@@ -1,25 +1,35 @@
 body {
-  font-size: 133%;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 2;
-  color: #666;
-  background: #f9f9f9;
-  text-shadow: 1px 1px 0px white;
-}
-.header {
-    font-weight: 300;
-    line-height: 1.2;
-    font-size: 1.8em;
-}
-p small {
-    color: #c9c9c9;
-    font-size: 0.75em;
-}
-.style1 {
-	border-top: 3px double #8c8b8b;
-}
-.style2 {
-	
-}
+    font-size: 133%;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: #f9f9f9;
+    text-shadow: 1px 1px 0px white;
+    margin: 150px;
+  }
+  .header {
+      font-size: 40px;
+      font-weight: 8;
+      line-height: 1.2;
+      color: rgb(94, 94, 94);
+  }
+  
+  .headermain {
+      font-size: 80px;
+      font-weight: 200;
+      line-height: 0.3;
+      color: rgb(94, 94, 94);
+  }
+  .contact {
+      color: rgb(136, 130, 130);
+      font-size: 0.9em;
+      line-height: 1.5;
+  }
+  .style1 {
+      border: 0;
+      height: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .sub {
+      margin-left: 50px;
+  }     

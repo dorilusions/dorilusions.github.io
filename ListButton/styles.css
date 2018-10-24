@@ -6,6 +6,26 @@ button {
     font-size: 16px;
 }
 
+button.test-button {
+    padding: 20px;
+    border: 15px lightpink solid;
+    border-radius: 7px;
+}
+
+button.test-button:hover {
+    background-color: gray;
+    border-color: pink
+}
+
+button.margin-button {
+    margin: 10px;
+}
+
+div#margin-div {
+    display: inline-block;
+    border: 1px black solid;
+}
+
 footer{
     background-color: blanchedalmond;
     text-align: center;
@@ -25,7 +45,7 @@ h1.foo {
     text-align: center;
 }
 
-h1#new-point {
+h1{
     text-align: center;
 }
 
@@ -42,4 +62,5 @@ img#listbuttonutah {
     width: 100px;
     height: 100px;
     float: left;
+    margin: 20px;
 }

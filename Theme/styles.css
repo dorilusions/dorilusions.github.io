@@ -4,22 +4,51 @@
 }
 
 footer {
-    background-color: beige;
+    background-color: #f9f9f9;
     text-align: center;
 }
 
 header {
-    background-color: beige;
+    background-color: #f4f6f8;
     text-align: center;
+    font-size: 150%
 }
 
+
 #bobahome {
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 100px;
+    margin-right: 10px;
     float: left;
 }
 
 main {
-    background-color: ivory;
+    background-color: rgb(251, 254, 255);    
+    font-size: 130%
+}
+
+main.h1 {
+    font-size: 40px;
+    text-align: left;
+}
+
+nav {        
+    background-color: rgb(214, 230, 245);
+    border: 1px darkslategrey;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+    font-size: 130%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
 }
 

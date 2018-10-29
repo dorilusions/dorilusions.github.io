@@ -1,29 +1,40 @@
+aside {
+    border: 1px darkslategray;
+    border-radius: 6px;
+    font-style: italic;
+    float: right;
+    background-color: lightpink;
+    width: 33%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 button {
     background-color: darkslategrey;
     border: 6px lightpink groove; 
     color: lightpink;
     text-align: center;    
-    font-size: 16px;
+    font-size: 20px;
 }
 
 button.test-button {
-    padding: 20px;
-    border: 15px lightpink solid;
-    border-radius: 7px;
+    padding: 25px;
+    border-radius: 35px;
 }
 
 button.test-button:hover {
-    background-color: gray;
-    border-color: pink
+    background-color: grey;
+    border-color: white;
 }
 
 button.margin-button {
-    margin: 10px;
+    margin: 25px;
 }
 
-div#margin-div {
-    display: inline-block;
+div.elf-border {
     border: 1px black solid;
+    display: inline-block;
 }
 
 footer{
@@ -45,7 +56,7 @@ h1.foo {
     text-align: center;
 }
 
-h1{
+h1.new-point {
     text-align: center;
 }
 
@@ -62,5 +73,5 @@ img#listbuttonutah {
     width: 100px;
     height: 100px;
     float: left;
-    margin: 20px;
+    padding: 10px;
 }

@@ -1,6 +1,6 @@
 body {
     font-size: 133%;
-    font-family: sans-serif;
+    font-family: 'Varela Round', sans-serif;
     line-height: 1.5;
     background: #f9f9f9;
     margin: 150px;
@@ -11,25 +11,38 @@ body {
     font-size: 90%;
 }
 
-footer {
-    background-color: #535353;
-    color: white;
-    text-align: center;
-}
-
 header {
     background-color: #535353;
-    color: white;
+    border-bottom: 3px solid white;
+    color: lightpink;
+    font-size: 150%;
+    width: 100%;
+    padding: 30px;
     text-align: center;
-    font-size: 150%
 }
 
+nav {        
+    background-color: rgb(255, 210, 217);
+    border: 1px darkslategrey;
+    padding: 30px;
+    margin: -1px 0px 0px 0px;
+    font-size: 130%;
+    width: 100%;
+    text-align: center;
+}
 
-#bobahome {
-    width: 130px;
-    height: 100px;
-    margin-right: 10px;
-    float: left;
+nav li {
+    display: inline-block;
+    padding: 8px;    
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
 }
 
 main {    
@@ -42,23 +55,65 @@ main.h1 {
     text-align: left;
 }
 
-nav {        
-    background-color: rgb(255, 210, 217);
-    border: 1px darkslategrey;
+footer {
+    background-color: #535353;
+    color: white;
+    text-align: center;
+}
+
+aside {       
+    background-color: lightpink;
+    border: darkslategrey 3px solid;
+    border-radius: 13px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
     padding: 8px;
-    margin: -1px 0px 0px 0px;
-    font-size: 130%;
+    width: 33%;        
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+figcaption {
+    font-style: italic;
+    padding: 8px;
+    font-size: 15px;       
+}
+
+#allshows {
+    width: 100%;
+    height: 100%;
+    border: 1px darkslategrey;
+}
+
+#sakuracon {
+    width: 390px;
+    height: 300px;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 20px;
+    float: left;
+}
+
+#astroboy {
+    width: 100%;
+    height: 100%;
+    border: 1px darkslategrey;
+}
     
+#genrepic {
+    width: 70%;
+    height: 70%;
+    border: 1px darkslategrey;
 }
 
-nav li {
-    display: inline;
-    padding: 8px;    
+#rwby {
+    width: 280px;
+    height: 400px;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 20px;
+    float: right;
 }
+
+
+
 

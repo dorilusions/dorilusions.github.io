@@ -3,8 +3,10 @@ window.onload = () => {
 
     listButton.onclick = () => {
         const myList = document.getElementById('my-list');
-            for(i = 1; i < 10; i++){
-                elfCode.appendToList(myList, i);
-            }
+        
+        for (let i = 0; i < 7; i++) {
+           elfCode.appendToList(myList, i);
+        }
+        
     }
-}                    
+}

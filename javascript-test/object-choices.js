@@ -3,24 +3,32 @@ function loader() {
     functionButton.onclick = functionObject;
 }
 
-window.onload = loader();
+window.onload = loader;
 
-const myObject = {
-    firstName: 'Severus',
-    lastName: 'Snape',
-    getName: function() {
-        return this.firstName + ' ' + this.lastName;
+const simpleObject = {
+    sayName: 'Simple Object'
+}
+
+dynamicName.simpleObject = 'Dynamic Method';
+
+function FunctionObject() {
+    var privateFunction  = function() {
+        console.log('Private Function')
+    };
+
+    FunctionObject.prototype.sayName = function() {
+        return privateFunction;
+    };      
+}
+
+class CustomClass {
+    sayName() {
+        console.log('BarFoo');
     }
 }
 
-myObject.middleName = 'Lily';
 
-var simpleObject = {}
-
-const functionObject = () => {
-    console.log('my object')
-
-    
-}
-
-console.log(myObject.getName());
+var functionObject = new FunctionObject();
+console.log(functionObject.constructor.toString());
+const customClass = new CustomClass();
+customClass.sayName();

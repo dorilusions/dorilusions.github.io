@@ -1,6 +1,19 @@
 function loader() {
-    const functionButton = document.getElementById('function-object-action');
-    functionButton.onclick = functionObject;
+    const simpleObjectButton = document.getElementById('simple-object-action');
+    const functionObjectButton = document.getElementById('function-object-action');
+    const customClassButton = document.getElementById('custom-class-action');
+
+    simpleObjectButton.onclick = function() {
+        const name = simpleObject.sayName + ', ' + simpleObject.dynamicName;
+        const getSimpleObjectDisplay = document.getElementById('simple-object-display');
+        getSimpleObjectDisplay.textContent = name;
+    }
+
+    functionObjectButton.onclick = function() {
+        const name = FunctionObject.sayName
+        const getFunctionObjectDisplay = document.getElementById('function-o')
+    }
+    
 }
 
 window.onload = loader;

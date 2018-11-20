@@ -4,16 +4,24 @@ function loader() {
     const customClassButton = document.getElementById('custom-class-action');
 
     simpleObjectButton.onclick = function() {
-        const name = simpleObject.sayName + ', ' + simpleObject.dynamicName;
+        const simpleObjectName = simpleObject.sayName + ', ' + simpleObject.dynamicName;
         const getSimpleObjectDisplay = document.getElementById('simple-object-display');
-        getSimpleObjectDisplay.textContent = name;
+        getSimpleObjectDisplay.textContent = simpleObjectName;
     }
 
+   
     functionObjectButton.onclick = function() {
-        const name = FunctionObject.sayName
-        const getFunctionObjectDisplay = document.getElementById('function-o')
+        const functionObject = new FunctionObject();
+        const functionObjectName = functionObject.sayName();
+        const getFunctionObjectDisplay = document.getElementById('function-object-display');
+        getFunctionObjectDisplay.textContent = functionObjectName;
     }
-    
+
+    customClassButton.onclick = function() {
+        const customClassName = customClass.sayName();
+        const getCustomClassDisplay = document.getElementById('custom-class-display');
+        getCustomClassDisplay.textContent = customClassName;
+    }
 }
 
 window.onload = loader;
@@ -22,21 +30,21 @@ const simpleObject = {
     sayName: 'Simple Object'
 }
 
-dynamicName.simpleObject = 'Dynamic Method';
+simpleObject.dynamicName = 'Dynamic Method';
 
 function FunctionObject() {
     var privateFunction  = function() {
-        console.log('Private Function')
+        return 'Private Function';
     };
 
     FunctionObject.prototype.sayName = function() {
-        return privateFunction;
+        return privateFunction();
     };      
 }
 
 class CustomClass {
     sayName() {
-        console.log('BarFoo');
+        return 'Custom Class';
     }
 }
 

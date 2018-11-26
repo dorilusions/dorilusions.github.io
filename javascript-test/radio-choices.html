@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Radio Choices </title>
     <script src = "radio-choices.js"></script>
-    <link rel = "stylesheet" href = "../ListButton//styles.css">
+    <link rel = "stylesheet" href = "styles.css">
 </head>
 <body>
     <header>
@@ -19,6 +19,24 @@
             <fieldset>
                 <legend> The User Selection</legend>
                 <p><b> User Choice: </b><span id = "user-choice"> Unknown </span></p>
+            </fieldset>
+        </section>
+
+        <section>
+            <fieldset>
+                <legend> Our Form</legend>
+                
+                <form id = "sort-type" action = "goThere">
+                    <input type = "radio" id = "rank" name = "sorter" value = "Rank" checked>
+                    <label for = "rank"> Rank </label>
+
+                    <input type = "radio" id = "language" name = "sorter" value = "Language" checked>
+                    <label for = "language"> Language </label>
+                    <div>
+                        <input class = "btn-padding" type = "submit" value = "Submit">
+                    </div>
+
+                </form>
             </fieldset>
         </section>
     </main>

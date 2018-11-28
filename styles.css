@@ -3,33 +3,47 @@ body {
     font-family: sans-serif;
     line-height: 1.5;
     background: #f9f9f9;
-    text-shadow: 1px 1px 0px white;
     margin: 150px;
-  }
-  .header {
-      font-size: 40px;
-      font-weight: 8;
-      line-height: 1.2;
-      color: rgb(94, 94, 94);
-  }
-  
-  .headermain {
-      font-size: 80px;
-      font-weight: 200;
-      line-height: 0.3;
-      color: rgb(94, 94, 94);
-  }
-  .contact {
-      color: rgb(136, 130, 130);
-      font-size: 0.9em;
-      line-height: 1.5;
-  }
-  .style1 {
-      border: 0;
-      height: 0;
-      border-top: 1px solid rgba(0, 0, 0, 0.1);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  }
-  .sub {
-      margin-left: 50px;
-  }     
+}
+
+header {
+    font-weight: 8;
+    line-height: 1.2;
+    color: rgb(94, 94, 94);
+    background: rgb(207, 206, 206);
+    padding: 10%;
+    text-align: center;
+    text-shadow: 1px 1px 0px white;
+}
+
+footer {
+    text-align: center;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: 8;
+    line-height: 1.2;
+    color: rgb(94, 94, 94);
+}
+
+.headermain {
+    font-size: 80px;
+    font-weight: 200;
+    line-height: 0.3;
+    color: rgb(94, 94, 94);
+}
+.contact {
+    color: rgb(136, 130, 130);
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+.style1 {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sub {
+    margin-left: 50px;
+}     

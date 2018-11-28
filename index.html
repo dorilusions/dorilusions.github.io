@@ -4,7 +4,10 @@
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
         <title> Prog 109 Home </title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/png" href="favicon.png"/>
+        <link rel="stylesheet" href="styles.css" id="default">
+        <link rel="alternate stylesheet" href="styles01.css" id="basic">
+        <script src="lib/css-swap.js"></script>
     </head>
 
     <body>
@@ -13,23 +16,30 @@
             <p> This is the home page for all of Dorothy's Prog 109 work. </p>
         </header>
         <main>
-            <ul>
-                <li><a href = "./Theme/index.html"> Theme Midterm</a></li>
-                <li><a href = "./ListButton/index.html"> List Button Assignment</a></li>
-                <li><a href = "./javascript-test/index.html"> Javascript Test Assignment</a></li>
-                <li><a href = "./download-image.html"> Download Image Assignment</a></li>
-                <li><a href = "./resume.html"> Resume Assignment</a></li>   
-                <li><a href = "./week03-day02.html"> In Class Week 3 Day 2</a></li>          
-                <li><a href = "./javascript-test/week07-day01.html"> In Class Week 7 Day 1</a></li>  
-                <li><a href = "./javascript-test/week07-day02.html"> In Class Week 7 Day 2</a></li>
-                <li><a href = "for-loops/index.html"> For Loops </a></li>
-                <li><a href = "javascript-test/function-basics.html"> Function Basics </a></li>
-                <li><a href = "./useful-links.html"> Useful Links </a></li>
-                <li><a href = "javascript-test/function-input.html"> Function Inputs </a></li>
-                <li><a href = "javascript-test/object-choices.html"> Object Choices</a></li>
-                <li><a href = "javascript-test/javascript-arrays.html"> Javascript Arrays </a></li>
-                <li><a href = "javascript-test/radio-choices.html"> Radio Choices </a></li>
-            </ul>
+            <section>
+                <h2> Assignment Index </h2>
+                <ul>
+                    <li><a href = "./Theme/index.html"> Theme Midterm</a></li>
+                    <li><a href = "./ListButton/index.html"> List Button Assignment</a></li>
+                    <li><a href = "./javascript-test/index.html"> Javascript Test Assignment</a></li>
+                    <li><a href = "./download-image.html"> Download Image Assignment</a></li>
+                    <li><a href = "./resume.html"> Resume Assignment</a></li>   
+                    <li><a href = "./week03-day02.html"> In Class Week 3 Day 2</a></li>          
+                    <li><a href = "./javascript-test/week07-day01.html"> In Class Week 7 Day 1</a></li>  
+                    <li><a href = "./javascript-test/week07-day02.html"> In Class Week 7 Day 2</a></li>
+                    <li><a href = "for-loops/index.html"> For Loops </a></li>
+                    <li><a href = "javascript-test/function-basics.html"> Function Basics </a></li>
+                    <li><a href = "./useful-links.html"> Useful Links </a></li>
+                    <li><a href = "javascript-test/function-input.html"> Function Inputs </a></li>
+                    <li><a href = "javascript-test/object-choices.html"> Object Choices</a></li>
+                    <li><a href = "javascript-test/javascript-arrays.html"> Javascript Arrays </a></li>
+                    <li><a href = "javascript-test/radio-choices.html"> Radio Choices </a></li>
+                </ul>
+            </section>
+
+            <section>
+                <button id = "appearanceAction" type = "button"> Change Appearance</button>
+            </section>
         </main>
         <footer>
             <p>&copy; Dorothy Lu</p>

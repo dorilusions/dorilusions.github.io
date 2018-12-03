@@ -1,6 +1,19 @@
 body {
-    background: #f9f9f9;
-    margin: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 150px;
+}
+
+header {
+    font-weight: 8;
+    line-height: 1.2;
+    color: rgb(94, 94, 94);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
 
 button {
@@ -18,7 +31,12 @@ button:hover {
 
 p {
     font-size: 25px;
-    font-family: cursive;
+    font-family: sans-serif;
+}
+
+li {  
+    display: inline-block;
+    list-style-type: none;
 }
 
 .blueBackground {
@@ -26,5 +44,17 @@ p {
 }
 
 .whiteBackground {
-    background-color: rgb(226, 230, 231);
+    background-color: rgb(255, 255, 255);
 }  
+
+.pinkBackground {
+    background-color: rgb(255, 188, 227);
+}
+
+.lilacBackground {
+    background-color: rgb(241, 183, 237);
+}
+
+.salmonBackground {
+    background-color: rgb(255, 201, 169);
+}

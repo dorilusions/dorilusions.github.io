@@ -4,11 +4,20 @@ window.onload = () => {
     myForm.addEventListener('submit', (event) => {
         event.preventDefault();
         const value = document.querySelector('input[name="sorter"]:checked').value;
-        if (value.toLowerCase() === 'white') {
+        if (value.toLowerCase() === 'blue') {
             setColor("blueBackground");
             showChoice(value);
-        } else {
+        } else if (value.toLowerCase() === 'white') {
             setColor("whiteBackground");
+            showChoice(value);
+        } else if (value.toLowerCase() === 'pink') {
+            setColor("pinkBackground");
+            showChoice(value);
+        } else if (value.toLowerCase() === 'lilac') {
+            setColor("lilacBackground");
+            showChoice(value);
+        } else {
+            setColor("salmonBackground");
             showChoice(value);
         }
     });

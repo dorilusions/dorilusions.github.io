@@ -2,7 +2,7 @@ body {
     font-size: 133%;
     font-family: 'Varela Round', sans-serif;
     line-height: 1.5;
-    background: #f9f9f9;
+    background: rgb(233, 249, 255);
     margin: 5%;
   }
 
@@ -12,19 +12,19 @@ body {
 }
 
 header {
-    background-color: #535353;
-    border-bottom: 3px solid white;
-    color: lightpink;
+    background-color: #ffffff;
+    border-bottom: 3px solid rgb(58, 109, 129);
+    color: rgb(58, 109, 129);
     font-size: 150%;
     padding: 30px;
     text-align: center;
 }
 
 nav {        
-    background-color: rgb(255, 210, 217);
+    background-color: rgb(58, 109, 129);
     border: 1px darkslategrey;
+    color: #ffffff;
     padding: 30px;
-    margin: -1px 0px 0px 0px;
     text-align: center;
 }
 
@@ -53,14 +53,15 @@ main.h1 {
 }
 
 footer {
-    background-color: #535353;
+    background-color: rgb(58, 109, 129);
     color: white;
     text-align: center;
 }
 
 aside {       
-    background-color: lightpink;
+    background-color: rgb(58, 109, 129);
     border: darkslategrey 3px solid;
+    color: #ffffff;
     border-radius: 13px;
     float: right;
     font-style: italic;

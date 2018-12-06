@@ -2,7 +2,7 @@ body {
     font-size: 25px;
     font-family: sans-serif;
     line-height: 1.5;
-    margin: 150px;
+    margin: 5%;
 }
 
 header {
@@ -34,7 +34,7 @@ p {
     font-family: sans-serif;
 }
 
-li {  
+.navlink {  
     display: inline-block;
     list-style-type: none;
 }

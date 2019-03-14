@@ -1,0 +1,97 @@
+body {
+    font-size: 133%;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5;
+    background: #ffecec;
+    margin: 5%;
+  }
+
+.byline {
+    font-style: italic;
+    font-size: 90%;
+}
+
+header {
+    background-color: #535353;
+    border-bottom: 3px solid white;
+    color: lightpink;
+    font-size: 150%;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {        
+    background-color: rgb(255, 210, 217);
+    border: 1px darkslategrey;
+    padding: 20px;
+    margin: -1px 0px 0px 0px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 8px;    
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+main {    
+    font-size: 130%;
+    padding: 30px;
+}
+
+main.h1 {
+    font-size: 40px;
+    text-align: left;
+}
+
+footer {
+    background-color: #535353;
+    color: white;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+}
+
+th, td {
+    border: 2px solid darkslategrey;
+    padding: 15px;
+}
+
+a:link {
+    color: rgb(77, 48, 52);
+}
+
+a:visited {
+    color: #535353;
+}
+
+#tblimg {
+    text-align: left;
+}
+
+#profile {
+    float: right;
+    width: 30%;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+#pokemans {
+    width: 35%;
+}
+
+.divgoals {
+    background-color: #e4cece;
+    padding: 20px;
+}

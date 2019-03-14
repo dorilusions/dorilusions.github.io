@@ -1,0 +1,143 @@
+body {    
+    background-image: url(./wallpaper.jpg);
+    background-size: 100%;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#container {
+    background-color: #fff3f3;
+    border: 2px solid darkslategrey;
+    border-radius: 20px;
+}
+
+.byline {
+    font-style: italic;
+    font-size: 90%;
+}
+
+aside {       
+    background-color: lightpink;
+    border: darkslategrey 3px solid;
+    border-radius: 13px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;        
+}
+
+#header1 {
+    background-image: url(./header.gif);
+    background-size: 100%;
+    background-position-y: -100px;
+    border-bottom: 3px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: lightpink;
+    text-shadow: -2px 0 darkslategrey, 0 2px darkslategrey, 2px 0 darkslategrey, 0 -2px darkslategrey;
+    font-size: 250%;
+    padding: 30px;
+    text-align: center;
+}
+
+#header2 {
+    background-image: url(./header2.gif);
+    background-size: 100%;
+    background-position-y: -100px;
+    border-bottom: 3px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: lightpink;
+    text-shadow: -2px 0 darkslategrey, 0 2px darkslategrey, 2px 0 darkslategrey, 0 -2px darkslategrey;
+    font-size: 250%;
+    padding: 30px;
+    text-align: center;
+}
+
+#header3 {
+    background-image: url(./header3.gif);
+    background-size: 100%;
+    background-position-y: -200px;
+    border-bottom: 3px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: lightpink;
+    text-shadow: -2px 0 darkslategrey, 0 2px darkslategrey, 2px 0 darkslategrey, 0 -2px darkslategrey;
+    font-size: 250%;
+    padding: 30px;
+    text-align: center;
+}
+
+#header4 {
+    background-image: url(./header4.gif);
+    background-size: 100%;
+    background-position-y: -200px;
+    border-bottom: 3px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: lightpink;
+    text-shadow: -2px 0 darkslategrey, 0 2px darkslategrey, 2px 0 darkslategrey, 0 -2px darkslategrey;
+    font-size: 250%;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {        
+    background-color: rgb(255, 210, 217);
+    border: 1px darkslategrey;
+    padding: 20px;
+    margin: -1px 0px 0px 0px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 8px;    
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+main {    
+    font-size: 130%;
+    padding: 20px 80px 20px 80px;
+}
+
+main.h1 {
+    font-size: 40px;
+    text-align: left;
+}
+
+footer {
+    background-color: #535353;
+    color: white;
+    text-align: center;
+}
+
+#reccomendations ul {
+    height:200px; 
+    width:18%;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+
+#naru {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#toolong {
+    width: 100%;
+    border-radius: 20px;
+}
